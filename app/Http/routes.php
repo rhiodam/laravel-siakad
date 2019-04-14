@@ -15,6 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/apakabar/{nama}', function ($nama) {
+//    return view('welcome');
+    
+});
+
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -29,3 +38,5 @@ Route::get('/', function () {
 Route::group(['middleware' => ['web']], function () {
     //
 });
+
+
